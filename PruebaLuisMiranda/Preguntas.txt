@@ -1,0 +1,46 @@
+2.1. Elabore un diagrama de componentes de la aplicación. Debe cargar el archivo en la siguiente ruta del repositorio: ./assets/diagrama.png
+
+RTA: Diagrama
+
+2.2. ¿Qué mecanismos de seguridad incluirías en la aplicación para garantizar la protección del acceso a los datos?
+
+	RTA:JWT / OAUTH
+
+2.3. ¿Qué estrategia de escalabilidad recomendarías para la aplicación considerando que el crecimiento proyectado será de 1,000,000 de clientes por año?
+
+	RTA: para poder abordar este punto considero que primero debe definirse si son clientes finales 
+
+2.4. ¿Qué patrón o patrones de diseño recomendarías para esta solución y cómo se implementarían? (Justifique)
+
+RTA:
+
+2.5. ¿Qué recomendaciones harías para optimizar el manejo y la persistencia de datos de la aplicación, teniendo en cuenta que esta aplicación tiene una alta transaccionalidad?
+
+RTA:
+
+3. Redes
+3.1. Explica la diferencia entre un router y un switch. ¿Cuándo usarías cada uno?
+
+RTA: Router es conexion a maquina final y el switch es para interconectar equipos 
+
+3.2. Describe las siete capas del modelo OSI y menciona brevemente la función principal de cada una
+
+	RTA:fisica-Define los aspectos físicos de la transmisión de datos, como cables, señales eléctricas,
+	datos-Asegura que los datos transferidos a través de la Capa Física lleguen sin errores mediante la detección y corrección de errores.
+	red-Gestiona la dirección y el enrutamiento de los datos 
+	trasnporte-Usa protocolos como TCP
+	sesion-Administra las conexiones (sesiones) entre dos dispositivos
+	presentacion-cifrado y compresión de los datos
+	aplicacion-servicios directos a aplicaciones correo, transferencia
+
+3.3. Explica las diferencias entre los protocolos TCP y UDP. Dar un ejemplo de cuándo usarías cada uno?
+
+RTA: TPC es para TCP, Envio de maails, Navegar y UDP es para Streaming, video juegos,  videochat
+
+3.4. ¿Qué es una máscara de subred y cómo se utiliza para dividir una red en subredes más pequeñas?
+
+RTA: subnetting y la mascara de subred es la encargada de definir que segento de la IP es la red correspondiente
+
+3.5. ¿Puedes mencionar algunos protocolos de enrutamiento dinámico y explicar brevemente cómo funcionan?
+
+RTA:
